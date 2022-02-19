@@ -1,0 +1,64 @@
+*{
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+     height: auto;
+     width: auto;
+     background: rgb(121, 120, 142);
+     /* background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgb(126, 126, 126) 46%, rgb(82, 16, 118) 100%); */
+}
+
+
+td{
+     background: rgb(133, 129, 129);
+     padding: 1em;
+     border-radius: 20px;
+     border: none;
+     box-shadow: inset 5px 5px 5px 2px rgb(191, 188, 188);
+
+}
+
+table{
+     background: transparent;
+     padding: .25em;
+     border-radius: 0px 0px 0px 0px;
+     box-shadow: 1px 1px 50px 0px rgb(108, 108, 108);
+}
+
+.flex{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+
+#save{
+
+     margin-top: 50px;
+     cursor: pointer;
+     padding: 10px;
+     width: 50%;
+     font-size: larger;
+     border-radius: 50px;
+}
+
+h3{
+     text-align: center;
+}
+
+#title, #day7{
+     text-align: center;
+     opacity: 0.2;
+     color: white;
+
+}
+
+#nut{
+     font-family:'Times New Roman', Times, serif;
+     font-size: 40px;
+     text-align: center;
+     
+}
